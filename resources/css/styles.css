@@ -1,0 +1,160 @@
+
+/* --------------------------------------- */
+/* BASIC SETUP */
+/* --------------------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #fff;
+  color: #011835;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/* --------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* --------------------------------------- */
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 80px 0;
+}
+
+/*.box {
+  padding: 1%;
+}*/
+
+/* ---------HEADINGS---------*/
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 240%;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+h2:after {
+  display: block;
+  content: " ";
+  background-color: #e67e22;
+  width: 100px;
+  height: 2px;
+  margin: 0 auto;
+  margin-top: 30px
+}
+
+h3 {
+  font-size: 110%;
+  margin-bottom: 15px;
+}
+
+
+
+/* ---------BUTTON---------*/
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  padding: 14px 28px;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.btn:hover,
+.btn:active {
+
+}
+/* --------------------------------------- */
+/* HEADER */
+/* --------------------------------------- */
+
+header {
+  padding: 30px 30px 0;
+  background-image: url(img/intro-bg.jpg);
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.logo {
+  width: 95px;
+  height: auto;
+}
+
+.header-intro {
+  margin: 100px 0 0;
+  text-align: center;
+  padding: 0 13%;
+}
+
+.header-intro h3 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 98%;
+  font-weight: 700;
+  color: #FEFEFE;
+}
+
+.header-intro h1 {
+  font-family: Domine;
+  font-weight: 700;
+  font-size: 255%;
+  color: #EC244C;
+  line-height: 1.3;
+  letter-spacing: 0;
+  word-spacing: 0;
+}
+
+.buttons {
+  margin-top: 35px;
+  margin-bottom: 60px;
+}
+
+.btn-header {
+  border: 4px solid #A4A6A8;
+  color: #FEFEFE;
+  font-size: 75%;
+  letter-spacing: 1px;
+}
+
+.header-intro img {
+  width: 100%
+}
