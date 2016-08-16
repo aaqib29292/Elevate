@@ -71,16 +71,6 @@ h2 {
   letter-spacing: 1px;
 }
 
-h2:after {
-  display: block;
-  content: " ";
-  background-color: #e67e22;
-  width: 100px;
-  height: 2px;
-  margin: 0 auto;
-  margin-top: 30px
-}
-
 h3 {
   font-size: 110%;
   margin-bottom: 15px;
@@ -157,4 +147,68 @@ header {
 
 .header-intro img {
   width: 100%
+}
+
+/* --------------------------------------- */
+/* FEATURES SECTION */
+/* --------------------------------------- */
+
+section.features {
+  background-color: #F9DA4F;
+}
+
+.features-intro h2 {
+  font-family: Domine;
+  font-size: 250%;
+  letter-spacing: 0px;
+  font-weight: bold;
+  margin-top: 80px;
+  color: #011834;
+}
+
+.features-intro p {
+  color: #4A505F;
+  line-height: 35px;
+  text-align: center;
+  width: 75%;
+  margin: 0px auto;
+  font-weight: 100;
+  word-spacing: 1px;
+}
+
+.features-intro:after {
+  display: block;
+  content: " ";
+  background-color: #011834;
+  width: 125px;
+  height: 3px;
+  margin: 0 auto;
+  margin-top: 30px
+}
+
+.features-list {
+  margin-top: 50px;
+}
+
+.feature {
+  padding: 0 25px 15px;
+}
+
+.count {
+  font-weight: bold;
+  font-size: 40px;
+  color: #EC244C;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.feature-name {
+  font-weight: bold;
+}
+
+.feature-detail {
+  color: #292C34;
+  padding-top: 5px;
+  line-height: 30px;
+  font-size: 80%;
 }
