@@ -85,7 +85,7 @@ h3 {
   padding: 14px 28px;
   text-decoration: none;
   font-weight: bold;
-  letter-spacing: 3px;
+  font-size: 75%;
 }
 
 .btn:hover,
@@ -124,7 +124,7 @@ header {
 }
 
 .header-intro h1 {
-  font-family: Domine;
+  font-family: "Domine", serif;
   font-weight: 700;
   font-size: 255%;
   color: #EC244C;
@@ -141,8 +141,8 @@ header {
 .btn-header {
   border: 4px solid #A4A6A8;
   color: #FEFEFE;
-  font-size: 75%;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  margin: 0 10px;
 }
 
 .header-intro img {
@@ -153,12 +153,12 @@ header {
 /* FEATURES SECTION */
 /* --------------------------------------- */
 
-section.features {
+section.features-section {
   background-color: #F9DA4F;
 }
 
 .features-intro h2 {
-  font-family: Domine;
+  font-family: "Domine", serif;
   font-size: 250%;
   letter-spacing: 0px;
   font-weight: bold;
@@ -167,7 +167,6 @@ section.features {
 }
 
 .features-intro p {
-  color: #4A505F;
   line-height: 35px;
   text-align: center;
   width: 75%;
@@ -211,4 +210,95 @@ section.features {
   padding-top: 5px;
   line-height: 30px;
   font-size: 80%;
+}
+
+
+/* --------------------------------------- */
+/* STUFF-SECTION */
+/* --------------------------------------- */
+
+.stuff-section {
+  padding: 0;
+}
+
+.stuff-section h5 {
+  text-transform: uppercase;
+  color: #CDD0D6;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.stuff-section h2 {
+  text-align: left;
+  font-family: "Domine", serif;
+  font-weight: 700;
+}
+
+.stuff-section h2:after {
+  display: block;
+  content: " ";
+  background-color: #CDD0D6;
+  width: 50px;
+  height: 3px;
+  margin-top: 15px;
+}
+
+.stuff-section p {
+  line-height: 30px;
+  font-size: 80%;
+  margin-bottom: 35px;
+}
+
+.stuff-section a {
+  background-color: #BEBEBE;
+  color: #011835;
+}
+
+
+.content {
+  position: relative;
+}
+
+.description {
+  width: 60%;
+  position: absolute;
+  top: 300px;
+  transform: translateY(-50%);
+  text-align: left;
+}
+
+.left {
+  right: 0;
+  padding: 0 40px 0 25px;
+}
+
+.display {
+  height: 661px;
+}
+
+.display {
+  margin: 0;
+  position: relative;
+  background-color: #E2E5E7;
+}
+
+.right {
+  padding: 0 1px 0 70px;
+}
+
+.cool-stuff img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 60%;
+}
+
+.video-stuff figure {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 60%;
+  margin: 0;
 }
