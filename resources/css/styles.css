@@ -81,6 +81,7 @@ h3 {
 /* ---------BUTTON---------*/
 .btn:link,
 .btn:visited {
+  display: inline-block;
   text-transform: uppercase;
   padding: 14px 28px;
   text-decoration: none;
@@ -91,6 +92,36 @@ h3 {
 .btn:hover,
 .btn:active {
 
+}
+
+/*------Section Intro-------*/
+
+.intro h2 {
+  font-family: "Domine", serif;
+  font-size: 250%;
+  letter-spacing: 0px;
+  font-weight: bold;
+  margin-top: 80px;
+  color: #011834;
+}
+
+.intro p {
+  line-height: 35px;
+  text-align: center;
+  width: 75%;
+  margin: 0px auto;
+  font-weight: 100;
+  word-spacing: 1px;
+}
+
+.intro:after {
+  display: block;
+  content: " ";
+  background-color: #011834;
+  width: 125px;
+  height: 3px;
+  margin: 0 auto;
+  margin-top: 30px
 }
 /* --------------------------------------- */
 /* HEADER */
@@ -155,34 +186,6 @@ header {
 
 section.features-section {
   background-color: #F9DA4F;
-}
-
-.features-intro h2 {
-  font-family: "Domine", serif;
-  font-size: 250%;
-  letter-spacing: 0px;
-  font-weight: bold;
-  margin-top: 80px;
-  color: #011834;
-}
-
-.features-intro p {
-  line-height: 35px;
-  text-align: center;
-  width: 75%;
-  margin: 0px auto;
-  font-weight: 100;
-  word-spacing: 1px;
-}
-
-.features-intro:after {
-  display: block;
-  content: " ";
-  background-color: #011834;
-  width: 125px;
-  height: 3px;
-  margin: 0 auto;
-  margin-top: 30px
 }
 
 .features-list {
@@ -349,4 +352,139 @@ section.stats-section {
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.3);
   font-size: 75%;
+}
+
+
+/* --------------------------------------- */
+/* PLANS-SECTION */
+/* --------------------------------------- */
+
+.plans-section {
+  background-color: #E2E5E7;
+}
+
+.intro {
+  margin-bottom: 75px;
+}
+
+.plans-list {
+  margin: 0 3%;
+}
+
+.plan {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.plan-content {
+  background-color: #FFF;
+}
+
+.plan-content.popular {
+  background-color: #012F68;
+  color: #FFF;
+}
+
+
+.plan-content a.status{
+  background-color: #ED254D;
+  color: #FFF;
+  letter-spacing: 3px;
+  font-size: 60%;
+  padding: 15px 50px;;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.plan-name {
+  font-size: 130%;
+  margin: 20px 0;
+}
+
+.plan-name:after {
+  content: "";
+  display: block;
+  background-color: #B3BAC2;
+  height: 2px;
+  width: 27%;
+  margin: 20px auto;
+}
+
+.plan-cost {
+  font-size: 300%;
+  font-family: "Domine", serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.plan-cost:before {
+  content: "$ ";
+  font-family: 'Roboto', sans-serif;
+  vertical-align: super;
+  font-size: 35%;
+  font-weight: bold;
+}
+
+.plan-cost:after {
+  content: "Per month";
+  display: block;
+  font-size: 25%;
+  color: #B3BAC2;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+.plan-features {
+  margin: 40px 0;
+}
+
+.plan-content li {
+  list-style: none;
+  font-size: 85%;
+  color: #B3BAC2;
+}
+
+
+.plan-content li strong {
+  color: #011835;
+}
+
+.popular li strong {
+  color: #FFF;
+}
+.popular li strong:before {
+  content: " ";
+}
+
+.plan-content li:after {
+  content: "";
+  display: block;
+  background-color: #B3BAC2;
+  height: 0.8px;
+  width: 80%;
+  margin: 12px auto;
+}
+
+.plan-name {
+  font-weight: bold;
+
+}
+
+.plan-content .btn-bg {
+  padding: 20px 44px;
+  letter-spacing: 2px;
+  background-color: #012F68;
+  margin-bottom: 50px;
+  color: #FFF;
+}
+
+.popular .btn-bg {
+  background-color: #FFF;
+  color: #012F68;
+}
+
+.popular {
+  transform: scale(1.05);
 }
