@@ -615,3 +615,56 @@ img.flex-active {
   border: 0px;
   width: 60%;
 }
+
+/* --------------------------------------- */
+/* FOOTER */
+/* --------------------------------------- */
+
+
+footer {
+  text-align: center;
+}
+
+.social-sites {
+  padding: 35px 0;
+  background-color: #111111;
+  color: #FFF;
+}
+
+.social-list {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 250%;
+}
+
+.social-icon {
+  margin: 0;
+}
+
+.contact-us {
+  background-color: #0E0E0E;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.22);
+  padding: 60px 0;
+}
+
+.contact-us h4 {
+  color: #FFF;
+  font-size: 95%;
+  margin-bottom: 25px;
+}
+
+.contact-us i {
+  margin-right: 6px;
+}
+
+.contact-us ul {
+  list-style: none;
+  line-height: 32px;
+  font-size: 80%;
+}
+
+.contact-us a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.22);
+}
