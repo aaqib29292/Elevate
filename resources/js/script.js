@@ -8,4 +8,18 @@ $(document).ready(function () {
     console.log("video");
 
 
+
+  // Flexslider plugin
+
+  $('#slider').flexslider({
+    controlsContainer: "flexslider-controls",
+    manualControls: ".flexslider-nav li img",
+    animation: "fade",
+    controlNav: true,
+    animationLoop: true,
+    slideshow: true,
+    directionNav: false,
+    smoothHeight: true
+  });
+
 })
