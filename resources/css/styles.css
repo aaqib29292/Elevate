@@ -94,6 +94,19 @@ h3 {
 
 }
 
+.btn-bg {
+  padding: 20px 44px !important;
+  letter-spacing: 2px;
+  background-color: #012F68;
+  margin-bottom: 50px;
+  color: #FFF;
+}
+
+.btn-main {
+  background-color: #FFF;
+  color: #001835;
+}
+
 /*------Section Intro-------*/
 
 .intro h2 {
@@ -123,6 +136,8 @@ h3 {
   margin: 0 auto;
   margin-top: 30px
 }
+
+
 /* --------------------------------------- */
 /* HEADER */
 /* --------------------------------------- */
@@ -472,14 +487,6 @@ section.stats-section {
 
 }
 
-.plan-content .btn-bg {
-  padding: 20px 44px;
-  letter-spacing: 2px;
-  background-color: #012F68;
-  margin-bottom: 50px;
-  color: #FFF;
-}
-
 .popular .btn-bg {
   background-color: #FFF;
   color: #012F68;
@@ -537,6 +544,7 @@ section.stats-section {
 }
 
 .flexslider-nav img {
+  cursor: pointer;
   width: 100px;
   height: auto;
   border-radius: 50%;
@@ -544,8 +552,37 @@ section.stats-section {
   opacity: 0.5;
 }
 
+.flexslider-nav img:hover {
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+}
+
 img.flex-active {
   opacity: 1;
   transform: scale(1.1);
   border: 3px solid rgba(0, 0, 0, 1);
+}
+
+
+/* --------------------------------------- */
+/* DOWNLOAD SECTION */
+/* --------------------------------------- */
+
+.download-section {
+  background-color: #02162E;
+  color: #FFF;
+  text-align: center;
+}
+
+.download-section h2 {
+  color: #FFF;
+}
+
+.download {
+  width: 80%;
+  margin: 0 auto 50px;
+}
+
+.download:after {
+  display: none;
 }

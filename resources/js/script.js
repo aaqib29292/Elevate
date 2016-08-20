@@ -19,7 +19,8 @@ $(document).ready(function () {
     animationLoop: true,
     slideshow: true,
     directionNav: false,
-    smoothHeight: true
+    smoothHeight: true,
+    pauseOnHover: true
   });
 
 })
