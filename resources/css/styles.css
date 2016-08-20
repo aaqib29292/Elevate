@@ -586,3 +586,32 @@ img.flex-active {
 .download:after {
   display: none;
 }
+
+/* --------------------------------------- */
+/* NEWSLETTER SECTION */
+/* --------------------------------------- */
+
+.newsletter-section {
+  background-color: #00132B;
+  text-align: center;
+}
+
+.notify p {
+  color: #FFF;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+.email {
+  width: 80%;
+  margin: 55px auto 0;
+}
+.email input {
+  background-color: #000D1E;
+  color: #FFF;
+  padding: 20px 44px;
+  font-size: 75%;
+  border: 0px;
+  width: 60%;
+}
