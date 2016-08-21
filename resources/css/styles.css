@@ -89,12 +89,8 @@ h3 {
   font-size: 75%;
 }
 
-.btn:hover,
-.btn:active {
-
-}
-
-.btn-bg {
+.btn-bg:link,
+.btn-bg:visited {
   padding: 20px 44px !important;
   letter-spacing: 2px;
   background-color: #012F68;
@@ -102,9 +98,16 @@ h3 {
   color: #FFF;
 }
 
-.btn-main {
+.btn-main:link,
+.btn-main:visited {
   background-color: #FFF;
   color: #001835;
+  transition: all 0.2s,
+}
+
+.btn-main:hover,
+.btn-main:active {
+  background-color: #F9DA4F;
 }
 
 /*------Section Intro-------*/
@@ -184,12 +187,21 @@ header {
   margin-bottom: 60px;
 }
 
-.btn-header {
+.btn-header:link,
+.btn-header:visited {
   border: 4px solid #A4A6A8;
   color: #FEFEFE;
   letter-spacing: 2px;
   margin: 0 10px;
+  transition: border 0.2s, color 0.2s ;
 }
+
+.btn-header:hover,
+.btn-header:active {
+  border-color: #F9DA4F;
+  color: #F9DA4F;
+}
+
 
 .header-intro img {
   width: 100%
@@ -267,9 +279,15 @@ section.features-section {
   margin-bottom: 35px;
 }
 
-.stuff-section a {
+.stuff-section a:link,
+.stuff-section a:visited {
   background-color: #BEBEBE;
   color: #011835;
+}
+
+.stuff-section a:hover,
+.stuff-section a:active {
+  background-color: #aca7a7;
 }
 
 
@@ -487,9 +505,17 @@ section.stats-section {
 
 }
 
-.popular .btn-bg {
+.popular .btn-bg:link,
+.popular .btn-bg:visited {
   background-color: #FFF;
   color: #012F68;
+  transition: all 0.2s;
+}
+
+.popular .btn-bg:hover,
+.popular .btn-bg:active {
+  background-color: #021f44;
+  color: #FFF;
 }
 
 .popular {
@@ -645,6 +671,12 @@ footer {
   border-left: 1px ridge #1D1D1D;
   border-right: 1px ridge #1D1D1D;
   padding: 35px 0;
+  transition: all 0.2s;
+}
+
+.social-icon:hover {
+  cursor: pointer;
+  color: #F9DA4F;
 }
 
 .contact-us {

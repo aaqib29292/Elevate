@@ -23,4 +23,11 @@ $(document).ready(function () {
     pauseOnHover: true
   });
 
+  // CounterUp plugin
+
+  $('.counter').counterUp({
+    delay: 10,
+    time: 1000
+  });
+
 })
