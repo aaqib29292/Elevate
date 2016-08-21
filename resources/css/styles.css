@@ -230,7 +230,6 @@ section.features-section {
   font-size: 80%;
 }
 
-
 /* --------------------------------------- */
 /* STUFF-SECTION */
 /* --------------------------------------- */
@@ -321,6 +320,7 @@ section.features-section {
   width: 60%;
   margin: 0;
 }
+
 
 /* --------------------------------------- */
 /* STATS-SECTION */
@@ -576,6 +576,7 @@ img.flex-active {
 
 .download-section h2 {
   color: #FFF;
+  font-size: 230%;
 }
 
 .download {
@@ -626,19 +627,24 @@ footer {
 }
 
 .social-sites {
-  padding: 35px 0;
   background-color: #111111;
   color: #FFF;
 }
 
 .social-list {
-  width: 90%;
-  margin: 0 auto;
-  font-size: 250%;
+  font-size: 230%;
+  margin-left: 13%;
+  margin-right: 7%;
+}
+
+.social-list .col {
+  margin: 0;
 }
 
 .social-icon {
-  margin: 0;
+  border-left: 1px ridge #1D1D1D;
+  border-right: 1px ridge #1D1D1D;
+  padding: 35px 0;
 }
 
 .contact-us {
