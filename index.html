@@ -28,6 +28,7 @@
     <script src="vendors/js/jquery.flexslider-min.js" charset="utf-8"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <script src="vendors/js/jquery.counterup.js" charset="utf-8"></script>
+    <script src="vendors/js/wow.min.js" charset="utf-8"></script>
 
 
   </head>
@@ -38,15 +39,17 @@
       </nav>
       <div class="row">
         <div class="header-intro">
-          <h3>Introducing Elevate</h3>
-          <h1>
-            The perfect template to present your awesome product.
-          </h1>
-          <div class="buttons">
-            <a href="#" class="btn btn-header">Features</a>
-            <a href="#" class="btn btn-header">Download</a>
+          <div class="wow fadeInDown" data-wow-duration="2s" data-wow-delay="1s">
+            <h3>Introducing Elevate</h3>
+            <h1>
+              The perfect template to present your awesome product.
+            </h1>
           </div>
-          <div class="app-screenshot">
+          <div class="buttons">
+            <a href="#" class="btn btn-header wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1.4s">Features</a>
+            <a href="#" class="btn btn-header wow fadeInRight" data-wow-duration="2s" data-wow-delay="1.4s">Download</a>
+          </div>
+          <div class="app-screenshot wow fadeInUp" data-wow-duration="2s" data-wow-delay="1.2s">
             <img src="resources/images/app-screenshot-big.jpg" alt="app-screenshot-1" />
           </div>
         </div>
@@ -54,14 +57,14 @@
     </header>
     <section class="features-section">
       <div class="row">
-        <div class="intro">
+        <div class="intro wow slideInUp" data-wow-duration="2s">
           <h2>Features You'll Love.</h2>
           <p>Lorem ipsum Tempor do Excepteur nulla aute deserunt reprehenderit aute commodo aliquip laboris velit eu esse exercitation ex fugiat pariatur aute consequat. Lorem ipsum Fugiat mollit quis qui. Lorem ipsum Duis Excepteur Duis magna fugiat incididunt qui id quis dolor nisi irure proident labore ut in incididunt eiusmod est anim.</p>
         </div>
       </div>
 
         <div class="features-list">
-          <div class="row">
+          <div class="row wow slideInUp" data-wow-duration="2s">
             <div class="col span-1-of-3 feature">
               <span class="count">01.</span>
               <h3 class="feature-name">Fully Resposive</h3>
@@ -79,7 +82,7 @@
             </div>
 
           </div>
-          <div class="row">
+          <div class="row wow slideInUp" data-wow-duration="2s">
             <div class="col span-1-of-3 feature">
               <span class="count">04.</span>
               <h3 class="feature-name">Clean Code</h3>
@@ -105,25 +108,25 @@
     <section class="stuff-section">
       <div class="cool-stuff">
         <div class="col span-1-of-2 content">
-          <div class="description left">
+          <div class="description left wow slideInLeft" data-wow-duration="2s">
             <h5>Some cool stuff</h5>
             <h2>Clean and Organized Code</h2>
             <p>Lorem ipsum Sunt adipisicing adipisicing esse exercitation consequat sed irure commodo cupidatat aute ea adipisicing consectetur nulla consequat irure consectetur veniam sit sit qui reprehenderit officia sunt nulla elit nisi proident.</p>
             <a href="#" class="btn">Learn More</a>
           </div>
         </div>
-        <div class="col span-1-of-2 display">
+        <div class="col span-1-of-2 display wow slideInRight" data-wow-duration="2s">
           <img src="resources/images/app-screenshot-small.jpg" alt="app-screenshot">
         </div>
       </div>
       <div class="video-stuff">
-          <div class="col span-1-of-2 display">
+          <div class="col span-1-of-2 display wow slideInLeft" data-wow-duration="2s">
             <figure class="vimeo">
               <iframe src="https://player.vimeo.com/video/14592941" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </figure>
           </div>
           <div class="col span-1-of-2 content">
-            <div class="description right">
+            <div class="description right wow slideInRight" data-wow-duration="2s">
               <h5>Video Stuff</h5>
               <h2>Your Super Cool Video</h2>
               <p>Lorem ipsum Sunt adipisicing adipisicing esse exercitation consequat sed irure commodo cupidatat aute ea adipisicing consectetur nulla consequat irure consectetur veniam sit sit qui reprehenderit officia sunt nulla elit nisi proident.</p>
@@ -170,14 +173,14 @@
 
     <section class="plans-section">
       <div class="row">
-        <div class="intro">
+        <div class="intro wow slideInUp" data-wow-duration="2s">
           <h2>Plans and Pricing.</h2>
           <p>Lorem ipsum Tempor do Excepteur nulla aute deserunt reprehenderit aute commodo aliquip laboris velit eu esse exercitation ex fugiat pariatur aute consequat. Lorem ipsum Fugiat mollit quis qui. Lorem ipsum Duis Excepteur Duis magna fugiat incididunt qui id quis dolor nisi irure proident labore ut in incididunt eiusmod est anim.</p>
         </div>
       </div>
       <div class="row">
         <div class="plans-list">
-          <div class="col span-1-of-3 plan">
+          <div class="col span-1-of-3 plan wow slideInLeft" data-wow-duration="2s">
             <div class="plan-content">
               <a href="#" class="btn status hide"></a>
               <h3 class="plan-name">Starter</h3>
@@ -191,7 +194,7 @@
               <a href="#" class="btn btn-bg">Get Started</a>
             </div>
           </div>
-          <div class="col span-1-of-3 plan">
+          <div class="col span-1-of-3 plan wow zoomIn" data-wow-duration="2s">
             <div class="plan-content popular">
               <a href="#" class="btn status">Popular</a>
               <h3 class="plan-name">Standard</h3>
@@ -205,7 +208,7 @@
               <a href="#" class="btn btn-bg">Get Started</a>
             </div>
           </div>
-          <div class="col span-1-of-3 plan">
+          <div class="col span-1-of-3 plan wow slideInRight" data-wow-duration="2s">
             <div class="plan-content">
               <a href="#" class="btn status hide"></a>
               <h3 class="plan-name">Premium</h3>
@@ -224,8 +227,8 @@
     </section>
 
     <section class="testimonials">
-      <h2>Hear What Our Customers Say.</h2>
-      <div class="row">
+      <h2 class="wow slideInUp" data-wow-duration="2s">Hear What Our Customers Say.</h2>
+      <div class="row wow slideInUp" data-wow-duration="2.2s">
         <div id="slider" class="flexslider">
           <ul class="slides">
             <li>
@@ -263,20 +266,20 @@
 
     <section class="download-section">
       <div class="row">
-        <div class="intro download">
+        <div class="intro download wow slideInUp" data-wow-duration="2s">
           <h2>Download Elevate Now.</h2>
           <p>Lorem ipsum Tempor do Excepteur nulla aute deserunt reprehenderit aute commodo aliquip laboris velit eu esse exercitation ex fugiat pariatur aute consequat. Lorem ipsum Fugiat mollit quis qui. Lorem ipsum Duis Excepteur Duis magna fugiat incididunt qui id quis dolor nisi irure proident labore ut in incididunt eiusmod est anim.</p>
         </div>
-        <a href="#" class="btn btn-bg btn-main">Download Elevate</a>
+        <a href="#" class="btn btn-bg btn-main wow zoomIn" data-wow-duration="2s" data-wow-delay="1s">Download Elevate</a>
       </div>
     </section>
 
     <section class="newsletter-section">
         <div class="row notify">
-          <p>Stay upto date, join our newsletter</p>
+          <p class="wow zoomIn" data-wow-duration="2s">Stay upto date, join our newsletter</p>
           <div class="email">
-            <input type="text" name="email" placeholder="Enter Your Email">
-            <a href="#" class="btn btn-bg btn-main">Get Notified</a>
+            <input type="text" name="email" placeholder="Enter Your Email" class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.5s">
+            <a href="#" class="btn btn-bg btn-main wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.5s">Get Notified</a>
           </div>
         </div>
     </section>
@@ -284,7 +287,7 @@
     <footer>
       <div class="social-sites">
         <div class="row">
-          <div class="social-list">
+          <div class="social-list wow zoomIn" data-wow-duration="2s">
             <div class="col span-1-of-6 social-icon"><i class="fa fa-facebook-square"></i></div>
             <div class="col span-1-of-6 social-icon"><i class="fa fa-twitter-square"></i></div>
             <div class="col span-1-of-6 social-icon"><i class="fa fa-google-plus-square"></i></div>
@@ -296,7 +299,7 @@
       </div>
 
       <div class="contact-us">
-        <div class="row">
+        <div class="row wow pulse" data-wow-duration="2s">
           <div class="col span-1-of-3 contact-col">
             <h4><i class="fa fa-map-marker" aria-hidden="true"></i> Where to Find Us</h4>
             <ul>

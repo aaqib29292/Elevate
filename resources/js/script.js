@@ -30,4 +30,6 @@ $(document).ready(function () {
     time: 1000
   });
 
+  // wow.js
+  new WOW().init();
 })
